@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerCinemaApi.Android", "TallerCinemaApi\TallerCinemaApi.Android\TallerCinemaApi.Android.csproj", "{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerCinemaApi", "TallerCinemaApi\TallerCinemaApi\TallerCinemaApi.csproj", "{0C0E90DB-C371-439C-A14F-7E35030748BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EB6501-4D8E-4CBF-B54B-7B1C7D00170B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0C0E90DB-C371-439C-A14F-7E35030748BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0E90DB-C371-439C-A14F-7E35030748BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0E90DB-C371-439C-A14F-7E35030748BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0C0E90DB-C371-439C-A14F-7E35030748BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0E90DB-C371-439C-A14F-7E35030748BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0E90DB-C371-439C-A14F-7E35030748BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3ED400-4D31-49DD-B108-EDDBA6B5CC79}
+	EndGlobalSection
+EndGlobal

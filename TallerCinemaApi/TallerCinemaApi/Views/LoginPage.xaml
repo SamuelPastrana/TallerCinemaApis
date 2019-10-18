@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TallerCinemaApi.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:tdr="clr-namespace:TallerCinemaApi.Helpers">
+
+    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+        <Image Source="Cinema.jpg"/>
+        <Entry x:Name="Usuario" Placeholder="{tdr:Translate Usuario}"/>
+        <Entry x:Name="Password" Placeholder="{tdr:Translate Contraseña}" IsPassword="True"/>
+        <Button Text="{tdr:Translate Ingresar}" Clicked="Ingresar_Click"/>
+    </StackLayout>
+</ContentPage>
